@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.cancel-btn{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cancel-btn:hover{
+    background: #ff2f2f;
+}

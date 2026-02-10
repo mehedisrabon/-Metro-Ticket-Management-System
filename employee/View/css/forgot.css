@@ -1,0 +1,26 @@
+/* ============================= */
+/* Forgot Password Page Styles */
+/* ============================= */
+
+.info-text{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.back-login{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.back-login a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-login a:hover{
+    text-decoration: underline;
+}

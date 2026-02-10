@@ -1,0 +1,64 @@
+/* Specific styles for Unblock Card page */
+
+.container {
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the Textarea which isn't in common.css */
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+textarea:focus {
+    border-color: #27d788;
+}
+
+
+.back-btn {
+    display: block;
+    width: fit-content;
+    min-width: 120px;
+    margin: 15px auto 0;
+    padding: 8px 15px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #27d788;
+    color: #000;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.note {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.8);
+}

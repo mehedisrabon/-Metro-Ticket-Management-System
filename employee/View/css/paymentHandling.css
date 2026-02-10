@@ -1,0 +1,85 @@
+/* ===== Payment Handling Specific Styles ===== */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+    max-width: 1000px;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+/* Specific Card Styling for Payment Page */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Input Group Styling */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #27d788;
+}
+
+/* Table Design for Transaction History */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+    background: rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+tr:hover td {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Status colors */
+.status-paid { color: #27d788; font-weight: bold; }
+.status-pending { color: #ffcc00; font-weight: bold; }
+
+@media (max-width: 768px) {
+    th, td { padding: 10px; font-size: 13px; }
+}

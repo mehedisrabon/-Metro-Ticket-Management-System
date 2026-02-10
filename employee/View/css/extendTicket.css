@@ -1,0 +1,49 @@
+/* ===== Extend Ticket Page Specific CSS ===== */
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+select {
+    height: 38px;
+    border-radius: 6px;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+select option {
+    color: #000;
+}
+
+.back-btn {
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #27d788;
+    color: #000;
+}
+
+.note {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.8);
+}

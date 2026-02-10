@@ -1,0 +1,117 @@
+/* Container to center the card on the screen */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust based on your header/footer height */
+    z-index: 1;
+}
+
+/* The Frosted Glass Card from your screenshot */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Success/Error Message Style */
+.status-msg {
+    color: #F0320C; /* Theme Red */
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+input, select {
+    width: 100%;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 0 12px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #27d788;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+button[type="submit"] {
+    background: #27d788;
+    color: #0d1117;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: #20b371;
+    transform: translateY(-2px);
+}
+
+.back-btn {
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #27d788;
+    color: #000;
+}
+
+.note {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+select option {
+    background: #1a1a1a;
+    color: white;
+}
