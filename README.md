@@ -12,20 +12,20 @@ A comprehensive web-based application designed to streamline the ticketing proce
 * **Account Recovery:** Forget Password and Change Password functionality.
 * **Profile Management:** View and Update personal profile information.
 
-### **Passenger Module (Student 1)**
+### **Passenger Module**
 
 * **Dashboard:** View current ticket details and active bookings.
 * **Ticket Booking:** Search for routes, book tickets, and update booking details.
 * **Journey History:** Maintain a log of past travels with the option to delete records.
 * **Payment Records:** View transaction history and manage payment logs.
 
-### **Admin Module (Student 2)**
+### **Admin Module**
 
 * **System Overview:** A high-level dashboard displaying total users, revenue, and system health.
 * **Fare & Route Management:** Manage metro stations, distances, and fare structures (View/Delete).
 * **Staff Management:** Full CRUD operations for Employee accounts (Insert/View/Delete).
 
-### **Employee Module (Student 3)**
+### **Employee Module**
 
 * **Ticket Management:** Confirm pending bookings and process ticket cancellations.
 * **Passenger Support:** Resolve booking conflicts and provide customer assistance.
